@@ -21,10 +21,10 @@
     "@babelbam/local-client": "^1.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20.1.1",
-    "esbuild": "0.8.26",
-    "typescript": "^5.0.4",
     "@babelbam/local-api": "^1.0.0",
-    "commander": "^10.0.1"
+    "@types/node": "^20.1.1",
+    "commander": "^10.0.1",
+    "esbuild": "0.8.26",
+    "typescript": "^5.0.4"
   }
 }
