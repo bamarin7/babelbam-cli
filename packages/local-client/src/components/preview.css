@@ -4,6 +4,14 @@
   flex-grow: 1;
 }
 
+#dark .wrapper {
+  background-color: #1f2d3b;
+}
+
+#light .wrapper {
+  background-color: #fff;
+}
+
 .wrapper iframe {
   height: 100%;
   width: 100%;

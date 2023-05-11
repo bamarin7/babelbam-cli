@@ -1,0 +1,9 @@
+#dark .app {
+  background-color: #1f2d3b;
+  color: #fff;
+}
+
+#light .app {
+  background-color: #dee5ed;
+  color: #1f2d3b;
+}

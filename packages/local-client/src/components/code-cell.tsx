@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import CodeEditor from './code-editor';
 import Preview from './preview';
 import Resizable from "./resizable";
