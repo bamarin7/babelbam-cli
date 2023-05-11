@@ -1,0 +1,51 @@
+.prog-wrapper {
+  background-color: #fff;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.progress-cont {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  animation: fadeIn 0.5s;
+}
+
+.progress-bar {
+  width: 120px;
+  height: 20px;
+  border-radius: 20px;
+  color: #d27b53;
+  border: 2px solid;
+  position: relative;
+  z-index: 5;
+}
+.progress-bar::before {
+  content: '';
+  position: absolute;
+  margin: 2px;
+  inset: 0 100% 0 0;
+  border-radius: inherit;
+  background: currentColor;
+  animation: p6 2s infinite;
+}
+@keyframes p6 {
+  100% {
+    inset: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
